@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15F34" minimumToolsVersion="Xcode 7.0">
+    <entity name="Discussions" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messages" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movie" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Members" syncable="YES">
+        <attribute name="about" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="watched" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wishlist" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Messages" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Movies" syncable="YES">
+        <attribute name="actors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="director" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poster" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Discussions" positionX="-54" positionY="63" width="128" height="90"/>
+        <element name="Members" positionX="-54" positionY="45" width="128" height="135"/>
+        <element name="Messages" positionX="-45" positionY="72" width="128" height="105"/>
+        <element name="Movies" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>
